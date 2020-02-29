@@ -13,7 +13,7 @@ function RenderSunglass(props) {
 
     const recognizeDrag = ({dx}) => (dx > 200) ? true : false;
 
-    /*PanResponder api -- the PanResponder and two panHandlers, onStartShouldSetPanResponder and onPanResponderEnd, to cause the campsite information Card in the CampsiteInfo component to respond to a drag gesture of more than 200 pixels to the left.gestureState=movement of finger */
+    /*PanResponder api -- the PanResponder and two panHandlers, onStartShouldSetPanResponder and onPanResponderEnd, sunglassInfo component to respond to a drag gesture of more than 200 pixels to the left.gestureState=movement of finger */
     const panResponder = PanResponder.create({
         onStartShouldSetPanResponder: () => true,
         onPanResponderGrant: () => {
@@ -69,7 +69,7 @@ function RenderSunglass(props) {
      return <View />; 
 }
 
-//class CampsiteComponent
+//class sunglassComponent
 class SunglassInfo extends Component {
     constructor(props) {
         super(props);
