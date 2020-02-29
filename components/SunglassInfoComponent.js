@@ -34,7 +34,7 @@ function RenderSunglass(props) {
                         },
                         {
                             text: 'OK', 
-                            style: 'cancel', 
+                            style: 'OK', 
                             onPress: () => console.log('Item added to the cart.')                                  
                         }
                     ],
